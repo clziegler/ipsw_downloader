@@ -1,5 +1,7 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 import devicetypes
-from pprint import pprint
 import sys
 
 

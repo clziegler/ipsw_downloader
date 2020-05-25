@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
 iPhones = {
     "iPhone 7": [
         ("iPhone9,1", "iPhone_7"),
