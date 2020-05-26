@@ -1,31 +1,3 @@
-import pathlib
-from setuptools import find_packages, setup
-
-
-HERE = pathlib.Path(__file__).parent
-
-setup(
-    name="ipsw_downloader",
-    version="1.0.0",
-    description="Download the latest IPSW files for still supported iPhones and iPads",
-    url="https://github.com/clziegler/ipsw_downloader.git",
-    author="clziegler",
-    author_email="office@realpython.com",
-    license="MIT",
-    classifiers=[
-        "License :: OSI Approved :: MIT License",
-        "Programming Language :: Python :: 2.7",
-        "Programming Language :: Python :: 3.8",
-    ],
-    packages=find_packages(),
-    include_package_data=True,
-    install_requires=["feedparser", "html2text"],
-    entry_points={
-        "console_scripts": [
-            "realpython=reader.__main__:main",
-        ]
-    },
-)
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
@@ -130,7 +102,7 @@ setup(
     author=AUTHOR,
     author_email=EMAIL,
     python_requires=REQUIRES_PYTHON,
-    url=URL,
+    url = URL,
     packages=find_packages(exclude=["tests", "*.tests", "*.tests.*", "tests.*"]),
     # If your package is a single module, use this instead of 'packages':
     # py_modules=['mypackage'],

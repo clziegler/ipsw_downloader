@@ -63,8 +63,8 @@ def show_iphones():
         else:
             try:
                 answer_list = answer.split(", ")
-                device_dict = {device: devicetypes.iPhones[device] for device in answer_list}
-                device_list = device_dict.values()
+                newdict = {k: devicetypes.iPhones[k] for k in answer_list}
+                device_list = newdict.values()
                 return device_list
             except:
                 print(
@@ -81,14 +81,15 @@ def show_ipads():
             sys.exit()
         elif answer == "BACK":
             user_start()
+            break
         elif answer == "ALL":
             device_list = devicetypes.iPads.values()
             return device_list
         else:
             try:
                 answer_list = answer.split(", ")
-                device_dict = {device: devicetypes.iPads[device] for device in answer_list}
-                device_list = device_dict.values()
+                newdict = {k: devicetypes.iPads[k] for k in answer_list}
+                device_list = newdict.values()
                 return device_list
             except:
                 print(
