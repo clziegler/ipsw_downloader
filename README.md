@@ -16,6 +16,6 @@ To run this project, download from source and place foler in target directory
 
 ```
 $ cd ../ipsw_downloader
-$ python setup.py
+$ python setup.py install
 $ python ipsw_downloader
 ```
