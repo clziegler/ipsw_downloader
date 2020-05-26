@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: ipsw-downloader
+Version: 0.1.0
+Summary: Download the latest IPSW files for still supported iPhones and iPads
+Home-page: https://github.com/clziegler/ipsw_downloader.git
+Author: clziegler
+Author-email: clziegler@me.com
+License: MIT
+Description: 
+        # IPSW Downloader
+        ## Table of contents
+        * [General info](#general-info)
+        * [Featues](#features)
+        * [Setup](#setup)
+        
+        ## General info
+        This project is simple way to download the latest ISPW files for iPhone an iPad
+        
+        ## Features
+        * Simple command-line interface
+        * Downloads latest IPSW for selected iOS devices
+        	
+        ## Setup
+        To run this project, download from source and place foler in target directory
+        
+        ```
+        $ cd ../ipsw_downloader
+        $ python setup.py
+        $ python ipsw_downloader
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=2.7.16
+Description-Content-Type: text/markdown
