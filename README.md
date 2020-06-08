@@ -12,7 +12,7 @@ This project is simple way to download the latest ISPW files for iPhone and iPad
 * Downloads latest IPSW for selected iOS devices
 	
 ## Setup
-To run this project, download from source and place foler in target directory
+To run this project, download from source and place in target directory
 
 ```
 $ cd ../ipsw_downloader
