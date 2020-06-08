@@ -5,7 +5,7 @@
 * [Setup](#setup)
 
 ## General info
-This project is simple way to download the latest ISPW files for iPhone an iPad
+This project is simple way to download the latest ISPW files for iPhone and iPad
 
 ## Features
 * Simple command-line interface
